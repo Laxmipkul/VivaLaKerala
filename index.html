@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viva La Kerala</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f4;
+            color: #333;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .container {
+            text-align: center;
+            margin: 50px auto;
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .option {
+            background-color: #fff;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin: 10px;
+        }
+
+        .option:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .option h2 {
+            margin: 0 0 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .option {
+                width: 200px;
+            }
+
+            .options {
+                gap: 10px;
+            }
+
+            footer {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                flex-direction: column;
+            }
+
+            header h1 {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+
+            img {
+                height: 40px;
+            }
+
+            .option {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="photo_2025-01-23_15-21-10.jpg" alt="Viva La Kerala Logo">
+        <h1>Welcome to Our Restaurant</h1>
+    </header>
+
+    <div class="container">
+        <h2>Choose an Option</h2>
+        <div class="options">
+            <a class="option" href="Menu.html">
+                <h2>Menu</h2>
+                <p>View our delicious dishes.</p>
+            </a>
+
+            <a class="option" href="location.html">
+                <h2>Location</h2>
+                <p>Find where we are located.</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Viva La Kerala. All rights reserved.
+    </footer>
+
+</body>
+</html>
+

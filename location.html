@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Location</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c3c1c1;
+            color: #333;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        iframe {
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 70%;
+            height: 450px;
+            border-radius: 20px;
+        }
+
+        button {
+            height: 40px;
+            width: 150px;
+            border-radius: 5px;
+            background-color: #333;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button a {
+            color: #f8f8f8;
+            text-decoration: none;
+            display: block;
+            height: 100%;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        button:hover {
+            background-color: #f8f8f8;
+        }
+
+        button:hover a {
+            color: black;
+        }
+
+        button:active {
+            background-color: black;
+        }
+
+        button:active a {
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            iframe {
+                width: 90%;
+                height: 300px;
+            }
+
+            button {
+                width: 120px;
+                height: 35px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            iframe {
+                width: 100%;
+                height: 250px;
+            }
+
+            button {
+                width: 100px;
+                height: 30px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Location</h1>
+    </header>
+
+    <section class="s2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8314783008773!2d100.8717781!3d12.9185505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310297d410e69441%3A0xc0442ef6baff3413!2sViva%20La%20Kerala!5e0!3m2!1sth!2sth!4v1737622670142!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <button><a href="indext.html">Back</a></button>
+    </section>
+    <footer>
+        &copy; 2025 Viva La Kerala. All rights reserved.
+    </footer>
+</body>
+</html>
